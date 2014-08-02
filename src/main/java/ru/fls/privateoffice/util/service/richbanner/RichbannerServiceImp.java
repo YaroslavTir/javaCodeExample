@@ -12,6 +12,7 @@ import ru.fls.privateoffice.entity.*;
 import ru.fls.privateoffice.util.dto.AccountBalancePageDTO;
 import ru.fls.privateoffice.util.dto.ProfilePageDTO;
 import ru.fls.privateoffice.util.dto.banner.RichbannerDTO;
+import ru.fls.privateoffice.util.dto.banner.RichbannerViewDTO;
 import ru.rzd.loyalty.shared.json.JsonTransformer;
 
 import javax.persistence.PersistenceException;
@@ -38,6 +39,9 @@ public class RichbannerServiceImp implements RichbannerService {
     private RichbannerDaoImp richbannerDao;
     @Autowired
     private RichbannerFilterChecker richbannerFilterChecker;
+    @Autowired
+    private RichbannerEngine richbannerEngine;
+
 
     public RichbannerServiceImp() {
     }
@@ -109,7 +113,49 @@ public class RichbannerServiceImp implements RichbannerService {
     }
 
 
+    @Override
+    public List<RichbannerDTO> getAllRichbanners() {
+        List<RichbannerDTO> richbannerDTOs = getAllRichbannersDTOs();
+        return richbannerEngine.richbannerList(new RichbannerAllFilter(), richbannerDTOs);
+    }
 
+    private List<RichbannerDTO> getAllRichbannersDTOs() {
+        List<Richbanner> allRichbanners = richbannerDao.getAllRichbanners();
+        List<RichbannerDTO> richbannerDTOs = new ArrayList<RichbannerDTO>();
+        try {
+            for (Richbanner allRichbanner : allRichbanners) {
+                RichbannerDTO richbannerDTO = toRichbannerDTO(allRichbanner);
+                richbannerDTOs.add(richbannerDTO);
+            }
+        } catch (IOException e) {
+            log.error("Richbanner. Cannot convert json", e);
+        }
+        return richbannerDTOs;
+    }
+
+    @Override
+    public Set<RichbannerViewDTO> getRichBannerViewSet(ProfilePageDTO page, AccountBalancePageDTO balance) {
+        String accountNumber = page.getAccountNumber();
+        log.info("Richbanner. Get all banners for: " + accountNumber);
+        List<RichbannerAccount> bannerBasesByAccount = richbannerDao.getBannerBasesByAccount(accountNumber);
+        Set<Long> richbanners = new HashSet<Long>();
+        for (RichbannerAccount richbannerAccount : bannerBasesByAccount) {
+            richbanners.add(richbannerAccount.getBannerBase().getId());
+        }
+
+        List<RichbannerExposure> exposureByAccount = richbannerDao.getExposureByAccount(accountNumber);
+        Map<Long, Integer> exposures = new HashMap<Long, Integer>();
+        for (RichbannerExposure richbannerExposure : exposureByAccount) {
+            exposures.put(richbannerExposure.getBannerBase().getId(), richbannerExposure.getExposures());
+        }
+        Set<String> existsRichbannerAccount = new HashSet<String>(richbannerDao.getExistsRichbannerAccount());
+        List<RichbannerDTO> richbannerDTOs = richbannerEngine.richbannerList(new RichbannerByProfileFilter(page, balance, richbanners, exposures, richbannerFilterChecker, existsRichbannerAccount), getAllRichbannersDTOs());
+        final Set<RichbannerViewDTO> result = new TreeSet<RichbannerViewDTO>();
+        for (RichbannerDTO richbannerDTO : richbannerDTOs) {
+            result.add(RichbannerViewDTO.create(richbannerDTO));
+        }
+        return result;
+    }
 
     @Override
     public void incAccountExposure(Long bannerId, ProfilePageDTO page) {

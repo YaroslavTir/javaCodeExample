@@ -13,8 +13,6 @@ import java.util.Set;
  */
 public interface RichbannerEngine {
 
-    Set<RichbannerViewDTO> getRichBannerViewSet(ProfilePageDTO page, AccountBalancePageDTO balance);
-
-    List<RichbannerDTO> getAllRichbanners();
+    public List<RichbannerDTO> richbannerList(RichbannerFilter richbannerFilter, List<RichbannerDTO> allRichbanners);
 
 }

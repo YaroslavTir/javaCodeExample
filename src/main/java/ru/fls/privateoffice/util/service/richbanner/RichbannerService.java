@@ -5,6 +5,7 @@ import ru.fls.privateoffice.entity.BannerBase;
 import ru.fls.privateoffice.entity.Richbanner;
 import ru.fls.privateoffice.util.dto.*;
 import ru.fls.privateoffice.util.dto.banner.RichbannerDTO;
+import ru.fls.privateoffice.util.dto.banner.RichbannerViewDTO;
 
 import javax.persistence.PersistenceException;
 import java.io.IOException;
@@ -32,6 +33,9 @@ public interface RichbannerService {
 
     void saveRichbanner(Richbanner richbanner, MultipartFile accountFile) throws IOException;
 
+    Set<RichbannerViewDTO> getRichBannerViewSet(ProfilePageDTO page, AccountBalancePageDTO balance);
+
+    List<RichbannerDTO> getAllRichbanners();
 
     void incAccountExposure(Long bannerId, ProfilePageDTO page);
 
