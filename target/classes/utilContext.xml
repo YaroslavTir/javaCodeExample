@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:cache="http://www.springframework.org/schema/cache"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.springframework.org/schema/aop
+                           http://www.springframework.org/schema/aop/spring-aop-3.1.xsd
+                           http://www.springframework.org/schema/cache
+                           http://www.springframework.org/schema/cache/spring-cache-3.1.xsd">
+
+    <context:annotation-config/>
+    <context:component-scan base-package="ru.fls.privateoffice"/>
+    <import resource="classpath*:servicesContext.xml"/>
+
+    <bean id="memcachedClient" class="net.spy.memcached.spring.MemcachedClientFactoryBean">
+        <property name="servers" value="${memcached.server.url},"/>
+    </bean>
+
+    <bean id="mapper" class="org.dozer.spring.DozerBeanMapperFactoryBean"/>
+
+    <bean name="validatorFactory" class="javax.validation.Validation" factory-method="buildDefaultValidatorFactory"/>
+    <bean name="validator" factory-bean="validatorFactory" factory-method="getValidator"/>
+
+    <!--AOP-->
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+    <bean name="memcachedNotificationAspect" class="ru.rzd.loyalty.shared.notify.MemcachedNotificationAspect">
+        <property name="memcachedClient" ref="memcachedClient"/>
+        <property name="handlers">
+            <map>
+                <entry key="dictionary" value-ref="dictionaryUpdateMemcachedNotificationHandler"/>
+            </map>
+        </property>
+    </bean>
+    <bean name="dictionaryUpdateMemcachedNotificationHandler" class="ru.fls.privateoffice.util.service.impl.DictionaryUpdateMemcachedNotificationHandler"/>
+    <!--/AOP-->
+
+</beans>
