@@ -1,7 +1,6 @@
 package ru.fls.privateoffice.util.service.richbanner;
 
 import org.apache.log4j.Logger;
-import org.joda.time.DurationFieldType;
 import org.joda.time.LocalDate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -12,7 +11,6 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
-import java.util.regex.Pattern;
 
 /**
  * @author YMolodkov

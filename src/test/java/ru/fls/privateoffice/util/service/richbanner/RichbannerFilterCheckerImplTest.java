@@ -1,12 +1,9 @@
 package ru.fls.privateoffice.util.service.richbanner;
 
 import org.junit.Test;
-import ru.fls.privateoffice.util.dto.ProgramElementDTO;
 import org.joda.time.DurationFieldType;
 import org.joda.time.LocalDate;
-import org.junit.Test;
-import ru.fls.privateoffice.util.service.richbanner.RichbannerFilterChecker;
-import ru.fls.privateoffice.util.service.richbanner.RichbannerFilterCheckerImpl;
+import ru.fls.privateoffice.util.dto.ProgramElementDTO;
 import ru.fls.privateoffice.utils.DateFormatter;
 
 import java.math.BigDecimal;

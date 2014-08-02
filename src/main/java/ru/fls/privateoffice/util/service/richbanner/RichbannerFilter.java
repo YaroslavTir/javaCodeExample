@@ -1,10 +1,6 @@
 package ru.fls.privateoffice.util.service.richbanner;
 
-import ru.fls.privateoffice.util.dto.AccountBalancePageDTO;
-import ru.fls.privateoffice.util.dto.ProfilePageDTO;
-import ru.fls.privateoffice.util.dto.RichbannerDTO;
-
-import java.io.File;
+import ru.fls.privateoffice.util.dto.banner.RichbannerDTO;
 
 /**
  * @author YMolodkov

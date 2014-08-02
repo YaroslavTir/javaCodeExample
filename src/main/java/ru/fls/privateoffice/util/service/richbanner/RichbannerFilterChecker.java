@@ -3,7 +3,6 @@ package ru.fls.privateoffice.util.service.richbanner;
 import ru.fls.privateoffice.util.dto.ProgramElementDTO;
 
 import java.math.BigDecimal;
-import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 

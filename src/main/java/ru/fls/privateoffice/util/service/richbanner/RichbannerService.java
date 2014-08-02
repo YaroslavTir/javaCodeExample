@@ -4,11 +4,11 @@ import org.springframework.web.multipart.MultipartFile;
 import ru.fls.privateoffice.entity.BannerBase;
 import ru.fls.privateoffice.entity.Richbanner;
 import ru.fls.privateoffice.util.dto.*;
+import ru.fls.privateoffice.util.dto.banner.RichbannerDTO;
 
 import javax.persistence.PersistenceException;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.UnsupportedEncodingException;
 import java.util.List;
 import java.util.Set;
 

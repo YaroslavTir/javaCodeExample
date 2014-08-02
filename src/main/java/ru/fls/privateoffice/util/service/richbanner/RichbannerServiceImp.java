@@ -11,7 +11,7 @@ import ru.fls.privateoffice.dao.impl.RichbannerDaoImp;
 import ru.fls.privateoffice.entity.*;
 import ru.fls.privateoffice.util.dto.AccountBalancePageDTO;
 import ru.fls.privateoffice.util.dto.ProfilePageDTO;
-import ru.fls.privateoffice.util.dto.RichbannerDTO;
+import ru.fls.privateoffice.util.dto.banner.RichbannerDTO;
 import ru.rzd.loyalty.shared.json.JsonTransformer;
 
 import javax.persistence.PersistenceException;

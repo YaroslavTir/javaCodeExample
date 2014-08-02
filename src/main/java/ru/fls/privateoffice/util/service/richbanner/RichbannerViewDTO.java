@@ -1,6 +1,6 @@
 package ru.fls.privateoffice.util.service.richbanner;
 
-import ru.fls.privateoffice.util.dto.RichbannerDTO;
+import ru.fls.privateoffice.util.dto.banner.RichbannerDTO;
 
 import java.io.Serializable;
 

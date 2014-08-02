@@ -6,7 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 import ru.fls.privateoffice.dao.impl.RichbannerDaoImp;
 import ru.fls.privateoffice.entity.Richbanner;
-import ru.fls.privateoffice.util.dto.RichbannerDTO;
+import ru.fls.privateoffice.util.dto.banner.RichbannerDTO;
 import ru.rzd.loyalty.shared.json.JsonTransformer;
 
 import java.util.Arrays;
