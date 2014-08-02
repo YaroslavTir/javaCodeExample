@@ -32,11 +32,6 @@ public interface RichbannerService {
 
     void saveRichbanner(Richbanner richbanner, MultipartFile accountFile) throws IOException;
 
-    Set<RichbannerViewDTO> getRichBannerViewSet(ProfilePageDTO page, AccountBalancePageDTO balance);
-
-    List<RichbannerDTO> getAllRichbanners();
-
-    List<RichbannerDTO> richbannerList(RichbannerFilter richbannerFilter);
 
     void incAccountExposure(Long bannerId, ProfilePageDTO page);
 

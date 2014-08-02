@@ -2,86 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="4fd88e2b-5054-4dff-9b5d-148f5227a62d" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\Replacer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\annotation\EnableLogger.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\aspect\LoggerAspect.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\builder\AccountBalanceAuthorizedPageBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\builder\AuthorizedBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\builder\AuthorizedPageBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\builder\CalculatorBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\builder\CardsInfoBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\builder\ClientAuthorizationBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\builder\ConfirmationPageBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\builder\ConsultationPageBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\builder\DictionaryPageBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\builder\DictionaryPageBuilderImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\builder\EditProfileInformationAuthorizedPageBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\builder\JourneyDataEnteringAuthorizedPageBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\builder\JourneyDataEnteringHistoryAuthorizedPageBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\builder\LevelChangesHistoryAuthorizedPageBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\builder\OperationsHistoryAuthorizedPageBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\builder\PartnerPageBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\builder\PasswordChangeAuthorizedPageBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\builder\PasswordRestorePageBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\builder\ProfileAuthorizedPageBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\builder\RegistrationPageBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\builder\ReprintingAllowedResultBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\BannerBaseDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\BannerDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\BasePasswordRestoreDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\CalculatorRequestDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\CardInfoDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\CardsInfoDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\ClientAuthorizationDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\ConfirmationPageDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\ConsultationElementDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\ConsultationHistoryPageDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\ConsultationMessageDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\DictionaryElementDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\DictionaryPageDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\ExpressPasswordRestoreDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\FeedbackRequestDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\IntervalOfPointsDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\JourneyDataEnteringElementDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\JourneyDataEnteringPageDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\JourneyDataEnteringResultDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\LevelChangesHistoryElementDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\LevelChangesHistoryPageDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\OperationHistoryElementDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\OperationsHistoryPageDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\PartnerElementDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\PartnerPageDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\PasswordRestoreDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\RegistrationPageDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\ReprintingAllowedResultDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\RichbannerDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\TicketRequestDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\dto\UserDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\localization\PrivateOfficeLocaleResolver.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\service\DictionarySearchService.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\service\impl\ClientPrincipal.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\service\impl\ClientPrincipalRole.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\service\impl\DictionarySearchServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\service\impl\DictionaryUpdateMemcachedNotificationHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\service\impl\LogoutHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\service\impl\OurAuthenticationManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\service\impl\OurAuthenticationProcessingFilterEntryPoint.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\service\impl\OurExceptionTranslationFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\service\impl\RoleBasedAuthenticationSuccessHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\service\impl\TitleService.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\service\impl\UploadFileService.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\stub\HomePageStub.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\stub\ProfilePageStub.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerAllFilter.java" afterPath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerAllFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/dto/CobrandingElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/dto/PartnerElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerEngine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerEngineImp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ru/fls/privateoffice/util/service/richbanner/RichbannerEngineImpTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ru/fls/privateoffice/util/service/richbanner/SamplesUtils.java" />
+      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\codes\PositionCategoryDictionaryInfoCodes.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\data\projects\javaCodeSamples\src\private-office-util\src\main\java\ru\fls\privateoffice\util\service\richbanner\AccountStatus.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/dto/ProfileElementDTO.java" afterPath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/dto/ProfileElementDTO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerByProfileFilter.java" afterPath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerByProfileFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerFilter.java" afterPath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerFilterChecker.java" afterPath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerFilterChecker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerFilterCheckerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerFilterCheckerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ru/fls/privateoffice/util/service/richbanner/RichbannerFilterCheckerImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/ru/fls/privateoffice/util/service/richbanner/RichbannerFilterCheckerImplTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerService.java" afterPath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerServiceImp.java" afterPath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerServiceImp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ru/fls/privateoffice/util/service/richbanner/RichbannerServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/ru/fls/privateoffice/util/service/richbanner/RichbannerServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerViewDTO.java" afterPath="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerViewDTO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private-office-util.iml" afterPath="$PROJECT_DIR$/private-office-util.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -93,12 +26,12 @@
     <file path="/a.dummy" changelist="4fd88e2b-5054-4dff-9b5d-148f5227a62d" time="1406986990147" ignored="false" />
     <file path="/RichbannerServiceImp.java" changelist="4fd88e2b-5054-4dff-9b5d-148f5227a62d" time="1406984341561" ignored="false" />
     <file path="/RichbannerEngine.java" changelist="4fd88e2b-5054-4dff-9b5d-148f5227a62d" time="1406985245566" ignored="false" />
-    <file path="/RichbannerEngineImp.java" changelist="4fd88e2b-5054-4dff-9b5d-148f5227a62d" time="1406987359833" ignored="false" />
+    <file path="/RichbannerEngineImp.java" changelist="4fd88e2b-5054-4dff-9b5d-148f5227a62d" time="1406994979405" ignored="false" />
     <file path="/SamplesUtils.java" changelist="4fd88e2b-5054-4dff-9b5d-148f5227a62d" time="1406987052060" ignored="false" />
     <file path="/RichbannerEngineImpTest.java" changelist="4fd88e2b-5054-4dff-9b5d-148f5227a62d" time="1406987377481" ignored="false" />
     <file path="/RichbannerServiceTest.java" changelist="4fd88e2b-5054-4dff-9b5d-148f5227a62d" time="1406987268050" ignored="false" />
-    <file path="/Dummy.txt" changelist="4fd88e2b-5054-4dff-9b5d-148f5227a62d" time="1406994569977" ignored="false" />
-    <file path="$PROJECT_DIR$/src/main/resources/utilContext.xml" changelist="4fd88e2b-5054-4dff-9b5d-148f5227a62d" time="1406994392950" ignored="false" />
+    <file path="/Dummy.txt" changelist="4fd88e2b-5054-4dff-9b5d-148f5227a62d" time="1406995552853" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/resources/utilContext.xml" changelist="4fd88e2b-5054-4dff-9b5d-148f5227a62d" time="1406995552854" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +95,7 @@
       <file leaf-file-name="RichbannerServiceImp.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -177,10 +110,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonChecker.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CommonChecker.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/CommonChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="11" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.030357143">
+            <state line="44" column="11" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RichbannerEngineImpTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/fls/privateoffice/util/service/richbanner/RichbannerEngineImpTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="36" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RichbannerEngineImp.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerEngineImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="51" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.06692913">
               <folding />
             </state>
           </provider>
@@ -189,7 +140,7 @@
       <file leaf-file-name="RichbannerServiceTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/fls/privateoffice/util/service/richbanner/RichbannerServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="51" selection-start="2899" selection-end="2899" vertical-scroll-proportion="0.0">
+            <state line="63" column="51" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -245,9 +196,9 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerServiceImp.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/fls/privateoffice/util/service/richbanner/SamplesUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/fls/privateoffice/util/service/richbanner/RichbannerServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerEngineImp.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/fls/privateoffice/util/service/richbanner/RichbannerEngineImpTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/CommonChecker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerEngineImp.java" />
       </list>
     </option>
   </component>
@@ -304,7 +255,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -367,32 +318,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="private-office-util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="private-office-util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -528,8 +453,8 @@
   <component name="PropertiesComponent">
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -737,26 +662,30 @@
       <created>1406981571353</created>
       <updated>1406981571353</updated>
     </task>
+    <task id="LOCAL-00001" summary="Clean up project.  remove extra classes from the project">
+      <created>1406994746822</created>
+      <updated>1406994746822</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="958" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19774719" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.55444306" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916147" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19448946" sideWeight="0.8022528" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19773096" sideWeight="0.44555694" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28911138" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15412621" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35980552" sideWeight="0.8022528" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34764993" sideWeight="0.44555694" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -767,6 +696,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916147" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30913642" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -813,7 +743,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean up project.  remove extra classes from the project" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -827,6 +757,7 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Clean up project.  remove extra classes from the project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -836,20 +767,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/CommonChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="32" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/fls/privateoffice/util/service/richbanner/RichbannerServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="51" selection-start="2840" selection-end="2840" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/fls/privateoffice/util/service/richbanner/CommonCheckerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="13" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
@@ -929,21 +846,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/fls/privateoffice/util/service/richbanner/RichbannerServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="51" selection-start="2899" selection-end="2899" vertical-scroll-proportion="0.0">
+        <state line="63" column="51" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/CommonChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="11" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.030357143">
+        <state line="44" column="11" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/fls/privateoffice/util/service/richbanner/RichbannerEngineImpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="36" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/fls/privateoffice/util/service/richbanner/RichbannerEngineImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="51" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.06692913">
           <folding />
         </state>
       </provider>

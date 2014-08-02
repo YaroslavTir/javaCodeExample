@@ -1,10 +1,10 @@
 package ru.fls.privateoffice.util.service.richbanner;
 
 import ru.fls.privateoffice.util.dto.AccountBalancePageDTO;
+import ru.fls.privateoffice.util.dto.CobrandingElement;
 import ru.fls.privateoffice.util.dto.ProfileElementDTO;
 import ru.fls.privateoffice.util.dto.ProfilePageDTO;
 import ru.fls.privateoffice.util.dto.banner.RichbannerDTO;
-import ru.rzd.loyalty.api.app.CobrandingElement;
 
 import java.util.ArrayList;
 import java.util.List;

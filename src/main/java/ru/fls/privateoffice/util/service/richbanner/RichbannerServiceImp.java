@@ -109,53 +109,7 @@ public class RichbannerServiceImp implements RichbannerService {
     }
 
 
-    @Override
-    public List<RichbannerDTO> richbannerList(RichbannerFilter richbannerFilter) {
-        List<Richbanner> allRichbanners = richbannerDao.getAllRichbanners();
-        List<RichbannerDTO> richbannerDTOs = new ArrayList<RichbannerDTO>();
-        for (Richbanner richbanner : allRichbanners) {
-            RichbannerDTO richbannerDTO = null;
-            try {
-                richbannerDTO = toRichbannerDTO(richbanner);
-                log.info("Richbanner. Check richbanner for account: richbannerId=" + richbannerDTO.getId());
-                if (richbannerFilter.accept(richbannerDTO)){
-                    richbannerDTOs.add(richbannerDTO);
-                }
-            } catch (IOException e) {
-                log.error("Richbanner. Cannot convert json", e);
-            }
-        }
-        return richbannerDTOs;
-    }
 
-    @Override
-    public List<RichbannerDTO> getAllRichbanners() {
-        return richbannerList(new RichbannerAllFilter());
-    }
-
-    @Override
-    public Set<RichbannerViewDTO> getRichBannerViewSet(ProfilePageDTO page, AccountBalancePageDTO balance) {
-        String accountNumber = page.getAccountNumber();
-        log.info("Richbanner. Get all banners for: " + accountNumber);
-        List<RichbannerAccount> bannerBasesByAccount = richbannerDao.getBannerBasesByAccount(accountNumber);
-        Set<Long> richbanners = new HashSet<Long>();
-        for (RichbannerAccount richbannerAccount : bannerBasesByAccount) {
-            richbanners.add(richbannerAccount.getBannerBase().getId());
-        }
-
-        List<RichbannerExposure> exposureByAccount = richbannerDao.getExposureByAccount(accountNumber);
-        Map<Long, Integer> exposures = new HashMap<Long, Integer>();
-        for (RichbannerExposure richbannerExposure : exposureByAccount) {
-            exposures.put(richbannerExposure.getBannerBase().getId(), richbannerExposure.getExposures());
-        }
-        Set<String> existsRichbannerAccount = new HashSet<String>(richbannerDao.getExistsRichbannerAccount());
-        List<RichbannerDTO> richbannerDTOs = richbannerList(new RichbannerByProfileFilter(page, balance, richbanners, exposures, richbannerFilterChecker, existsRichbannerAccount));
-        final Set<RichbannerViewDTO> result = new TreeSet<RichbannerViewDTO>();
-        for (RichbannerDTO richbannerDTO : richbannerDTOs) {
-            result.add(RichbannerViewDTO.create(richbannerDTO));
-        }
-        return result;
-    }
 
     @Override
     public void incAccountExposure(Long bannerId, ProfilePageDTO page) {

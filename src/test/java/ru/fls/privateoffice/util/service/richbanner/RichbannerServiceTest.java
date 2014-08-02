@@ -33,26 +33,17 @@ public class RichbannerServiceTest {
         richbannerDaoImp = mock(RichbannerDaoImp.class);
         RichbannerFilterChecker checker = mock(RichbannerFilterChecker.class);
         richbannerService = new RichbannerServiceImp(mapper, jsonTransformer, richbannerDaoImp, checker);
+
     }
 
-    private RichbannerDTO fillRichbannerDTO(RichbannerDTO richbannerDTO) {
-        RichbannerClientFilter richbannerClientFilter = new RichbannerClientFilter();
-        Map<String, Integer> accountExposures = new HashMap<String, Integer>();
-        richbannerClientFilter.setAccountNumber("1");
-        accountExposures.put("1", 1);
-        accountExposures.put("2", 2);
-        accountExposures.put("3", 3);
-        richbannerDTO.setId(1L);
-        richbannerDTO.setFilter(richbannerClientFilter);
-        return richbannerDTO;
-    }
+
 
     @Test
     public void testToRichbannerDTO() throws Exception {
         RichbannerDTO richbannerDTO = new RichbannerDTO();
         Richbanner richbanner = richbannerService.toRichbanner(richbannerDTO);
         assertNotNull(richbanner.getFilterData());
-        fillRichbannerDTO(richbannerDTO);
+        SamplesUtils.fillRichbannerDTO(richbannerDTO);
         richbanner = richbannerService.toRichbanner(richbannerDTO);
         assertNotNull(richbanner.getFilterData());
     }
@@ -69,20 +60,14 @@ public class RichbannerServiceTest {
 
     @Test
     public void testSaveRichbanner() throws Exception {
-        RichbannerDTO richbannerDTO = fillRichbannerDTO(new RichbannerDTO());
+        RichbannerDTO richbannerDTO = SamplesUtils.fillRichbannerDTO(new RichbannerDTO());
         Richbanner richbanner = richbannerService.toRichbanner(richbannerDTO);
         richbannerService.saveRichbanner(richbannerDTO);
         verify(richbannerDaoImp).save(richbanner);
     }
 
 
-    @Test
-    public void testRichbannerList() throws Exception {
-        RichbannerDTO richbannerDTO = fillRichbannerDTO(new RichbannerDTO());
-        when(richbannerDaoImp.getAllRichbanners()).thenReturn(Arrays.asList(richbannerService.toRichbanner(richbannerDTO)));
-        List<RichbannerDTO> richbannerDTOs = richbannerService.richbannerList(new RichbannerAllFilter());
-        assertEquals(richbannerDTO.getFilter().getAccountNumber(),richbannerDTOs.iterator().next().getFilter().getAccountNumber());
-    }
+
 
     @Test
     public void testIsAccountNumber() throws Exception {

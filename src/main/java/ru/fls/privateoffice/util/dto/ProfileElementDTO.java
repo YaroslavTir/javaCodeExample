@@ -1,18 +1,13 @@
 package ru.fls.privateoffice.util.dto;
 
+import com.google.gson.reflect.TypeToken;
+import org.dozer.Mapping;
+
+import javax.validation.constraints.NotNull;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
-import javax.validation.constraints.NotNull;
-
-import org.dozer.Mapping;
-
-import ru.rzd.loyalty.api.app.CobrandingElement;
-import ru.rzd.loyalty.api.app.PartnerElement;
-
-import com.google.gson.reflect.TypeToken;
 
 /**
  * User: NKarataeva
